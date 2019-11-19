@@ -106,7 +106,7 @@ client.on('message', async msg => {
             });
             return msg.reply(`we will validate your purchase shortly! Please be patient! DM was sent to ` + mod + `!` );
         }
-        
+
         con.query(`INSERT INTO runza_lb.runza_points (runza_player_id, disc_id, runza_pts) VALUES (NULL, '` + userName + `', ` + args + `) ON DUPLICATE KEY UPDATE runza_pts = runza_pts + ` + args + `;`, function (err, result, fields) {
             if(err) throw err;
             console.log(result);
