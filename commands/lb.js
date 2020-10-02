@@ -21,7 +21,7 @@ module.exports = {
                 .setColor()
                 .setTitle('Runza TT Leader Board')
                 .setAuthor(client.user.username)
-                .setDescription('This is the official leader board for the Temp Tuesday Runza Game! Make sure you check out, and compete for the prize!')
+                .setDescription('This official leader board for the Runza\'s Temp Tuesday! Make sure you check out, and compete for the prize!')
                 .setThumbnail('https://www.runza.com/_resources/e1h:osdb1x-3mb/image/75842250w212h107s4bc3/_fn/Runza_Logo_Green-Yellow-White.png')
                 .addField('**This message is for you to look at how many Runza\'s are being purchased.**', 'Please make sure you use the `!ap` command!')
                 .addField('**LEADER:**', results[0].disc_id, true)
