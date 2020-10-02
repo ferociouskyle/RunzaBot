@@ -1,7 +1,7 @@
 {
   "name": "runzabot",
   "version": "1.0.0",
-  "description": "Runza Bot to help with Temperature Tuesdays",
+  "description": "Runza Bot to help with Temperature Tuesdays deals!",
   "main": "main.js",
   "dependencies": {
     "canvas": "^2.6.0",
